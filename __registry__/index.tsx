@@ -16,6 +16,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "dialog": {
+      name: "dialog",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/dialog.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/dialog.tsx")),
+      source: "",
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "registry:example",
@@ -45,6 +56,17 @@ export const Index: Record<string, any> = {
       files: ["registry/new-york/block/authentication-01.tsx"],
       component: React.lazy(() => import("@/registry/new-york/block/authentication-01.tsx")),
       source: "__registry__/new-york/block/authentication-01.tsx",
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "hero-01": {
+      name: "hero-01",
+      type: "registry:block",
+      registryDependencies: ["dialog"],
+      files: ["registry/new-york/block/hero-01.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/block/hero-01.tsx")),
+      source: "__registry__/new-york/block/hero-01.tsx",
       category: "Authentication",
       subcategory: "Login",
       chunks: []
@@ -83,6 +105,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "dialog": {
+      name: "dialog",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/dialog.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/dialog.tsx")),
+      source: "",
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "registry:example",
@@ -112,6 +145,17 @@ export const Index: Record<string, any> = {
       files: ["registry/default/block/authentication-01.tsx"],
       component: React.lazy(() => import("@/registry/default/block/authentication-01.tsx")),
       source: "__registry__/default/block/authentication-01.tsx",
+      category: "Authentication",
+      subcategory: "Login",
+      chunks: []
+    },
+    "hero-01": {
+      name: "hero-01",
+      type: "registry:block",
+      registryDependencies: ["dialog"],
+      files: ["registry/default/block/hero-01.tsx"],
+      component: React.lazy(() => import("@/registry/default/block/hero-01.tsx")),
+      source: "__registry__/default/block/hero-01.tsx",
       category: "Authentication",
       subcategory: "Login",
       chunks: []

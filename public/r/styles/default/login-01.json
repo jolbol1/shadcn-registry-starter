@@ -2,10 +2,10 @@
   "name": "login-01",
   "type": "registry:block",
   "registryDependencies": [
-    "button",
-    "card",
-    "input",
-    "label"
+    "https://raw.githubusercontent.com/jolbol1/shadcn-registry-starter/refs/heads/demo/public/r/styles/default/button.json",
+    "https://raw.githubusercontent.com/jolbol1/shadcn-registry-starter/refs/heads/demo/public/r/styles/default/card.json",
+    "https://raw.githubusercontent.com/jolbol1/shadcn-registry-starter/refs/heads/demo/public/r/styles/default/input.json",
+    "https://raw.githubusercontent.com/jolbol1/shadcn-registry-starter/refs/heads/demo/public/r/styles/default/label.json"
   ],
   "files": [
     {

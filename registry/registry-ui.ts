@@ -29,4 +29,10 @@ export const ui: Registry = [
       },
     },
   },
+  {
+    name: "dialog",
+    type: "registry:ui",
+    dependencies: ["@headlessui/react"],
+    files: ["ui/dialog.tsx"],
+  },
 ];

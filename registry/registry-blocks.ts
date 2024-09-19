@@ -27,4 +27,19 @@ export const blocks: Registry = [
     category: "Authentication",
     subcategory: "Login",
   },
+  {
+    name: "hero-01",
+    type: "registry:block",
+    registryDependencies: ["dialog"],
+    dependencies: ["@heroicons/react"],
+    files: [
+      {
+        path: "block/hero-01.tsx",
+        target: "app/hero/page.tsx",
+        type: "registry:page",
+      },
+    ],
+    category: "Authentication",
+    subcategory: "Login",
+  },
 ];

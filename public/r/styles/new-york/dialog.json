@@ -1,0 +1,15 @@
+{
+  "name": "dialog",
+  "type": "registry:ui",
+  "dependencies": [
+    "@headlessui/react"
+  ],
+  "files": [
+    {
+      "path": "ui/dialog.tsx",
+      "content": "\"use client\";\n\nimport {\n  Dialog as HeadlessDialog,\n  DialogPanel,\n  DialogProps,\n  DialogPanelProps,\n} from \"@headlessui/react\";\nimport { cn } from \"@/lib/utils\";\n\nexport default function Dialog(props: DialogProps) {\n  return (\n    <HeadlessDialog {...props} className={cn(\"lg:hidden\")}>\n      {props.children}\n    </HeadlessDialog>\n  );\n}\n\nexport function DialogContent(props: DialogPanelProps) {\n  return (\n    <DialogPanel\n      className={cn(\n        \"fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10\"\n      )}\n    >\n      {props.children}\n    </DialogPanel>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": ""
+    }
+  ]
+}

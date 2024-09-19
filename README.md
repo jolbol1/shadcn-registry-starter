@@ -2,6 +2,14 @@
 
 This project is designed to create a component registry for your own components, enabling them to be used seamlessly with the `shadcn` CLI.
 
+## Unofficial
+
+This project is a collection of the neccesary files from the [shadcn/ui](https://ui.shadcn.com/) project. If there comes a time where official tooling is built, I will deprecrate this starter and recommend that one.
+
+Seems as if shadcn has plans for this in the future, and I will update this as and when 🙂
+
+- https://x.com/shadcn/status/1836862422675771822
+
 ## Usage
 
 - Add the code you want, based on its category if wanted, in to registry folder.
@@ -33,7 +41,3 @@ The `registry` folder is where you add your component code and register componen
 ## **registry**
 
 This folder is not needed and is an implementation detail from the ShadCN docs. In an effor to not modify anything as much as possible, so that merging future changes is easier, I have left it out.
-
-## Unofficial
-
-This project is a collection of the neccesary files from the [shadcn/ui](https://ui.shadcn.com/) project. If there comes a time where official tooling is built, I will deprecrate this starter and recommend that one.
