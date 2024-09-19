@@ -5,13 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build-registry": "tsx ./scripts/build-registry.mts"
+    "build-registry": "tsx ./scripts/build-registry.mts",
+    "dev": "http-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.5.5",
+    "http-server": "^14.1.1",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2"
   },
